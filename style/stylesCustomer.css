@@ -1,0 +1,65 @@
+#outerRect{
+    background-color: white; 
+    display: flex; 
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    padding: 10px; 
+    margin: auto; 
+    width: 60%; 
+    border: solid;
+    z-index: 5;
+
+}
+
+#innerRect{
+    background-color: #f5fffa; 
+    display: flex; 
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    padding: 10px; 
+    margin: auto; 
+    width: 40%; 
+    border: solid;
+    z-index: 9;
+}
+
+#button{
+    border-radius: 20px;
+    z-index: 9;
+
+}
+
+#innerRect2{
+    display:flex; 
+    justify-content: center; 
+    z-index: 9;
+}
+
+.counterRect{
+    background-color:#f5fffa; 
+    margin: 25px; 
+    display: flex; 
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    padding: 20px;
+    margin: 15px; 
+    width: 60%; 
+    border: solid;
+    position: relative;
+    z-index: 9;
+}
+
+.circle{
+    background-color: gray; 
+    border-radius: 50%; 
+    width: 10px; 
+    height: 10px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    z-index: 9;
+}
+

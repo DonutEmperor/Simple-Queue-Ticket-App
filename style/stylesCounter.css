@@ -1,0 +1,35 @@
+#outerRect{
+    background-color: white; 
+    display: flex; 
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    padding: 10px; 
+    margin: auto; 
+    width: 60%; 
+    border: solid;
+
+}
+
+#innerRect2{
+    display:flex; 
+    justify-content: center; 
+}
+
+.counterRect{
+    background-color:#f5fffa; 
+    margin: 25px; 
+    display: flex; 
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    padding: 20px;
+    margin: 5px; 
+    width: 60%; 
+    border: solid;
+    position: relative;
+}
+
+.countBut{
+    margin: 5px;
+}
